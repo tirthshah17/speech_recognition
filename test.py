@@ -14,9 +14,9 @@ from neuspell import BertChecker
 checker = BertChecker()
 checker.from_pretrained()
 
-subprocess.check_call("apt-get -y install sox ffmpeg")
-subprocess.check_call("pip install transformers ffmpeg-python sox")
-subprocess.check_call("wget https://raw.githubusercontent.com/harveenchadha/bol/main/demos/colab/record.py")
+subprocess.check_call(["apt-get","-y","install","sox","ffmpeg"])
+subprocess.check_call([sys.executable,"-m","pip","install","transformers","ffmpeg-python","sox"])
+subprocess.check_call(["wget","https://raw.githubusercontent.com/harveenchadha/bol/main/demos/colab/record.py"])
 
 import torch
 from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
