@@ -50,29 +50,24 @@ def parse_transcription(wav_file):
     return confidence, cleaned_transcription
 
 passage_list = []
-passage_list.append('''Opera refers to a dramatic art form, originating in Europe, in which the emotional content is conveyed to the audience 
-as much through music, both vocal and instrumental, as it is through the lyrics.''')
+passage_list.append('''Opera refers to a dramatic art form, originating in Europe,
+in which the emotional content is conveyed to the audience as much through music,
+both vocal and instrumental, as it is through the lyrics.''')
 
 passage_list.append('''John went for a bike ride. He rode
-around the block. Then he met
-some girls he knew from school.
-They all rode to the field to play.
-John had a great time playing
+around the block. Then he met some girls he knew from school.
+They all rode to the field to play. John had a great time playing
 games with his friends.''')
 
 passage_list.append("""Tim went to the park with his brother. They
-brought baseballs and gloves. They
-played catch for two hours. It started
-to get very hot out, so they went
-home for some lemonade. They
+brought baseballs and gloves. They played catch for two hours. It started
+to get very hot out, so they went home for some lemonade. They
 had a great day.""")
 
 passage_list.append("""The ocean has bright blue water
-filled with waves. Many
-types of fish live in the
-ocean. Seagulls love flying
-over the ocean to look for fish. There is soft sand
-along the shore, and there are pretty seashells
+filled with waves. Many types of fish live in the ocean.
+Seagulls love flying over the ocean to look for fish.
+There is soft sand along the shore, and there are pretty seashells
 in the sand. The ocean is a great place to visit.""")
 
 passage_list.append("""The kids were outside playing catch. They heard a
