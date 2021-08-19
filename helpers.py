@@ -1,7 +1,6 @@
 import torch
 from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
 import librosa
-from record import record_audio
 
 import random
 import jiwer
@@ -88,15 +87,16 @@ passed. They saw a rainbow!""")
 
 
 def get_passage():
-
+    
     ground_truth_passage = random.choice(passage_list)
     print('READ PASSAGE : \n')
     print(ground_truth_passage)
+    return ground_truth_passage
 
 def view_transcription():
     print(transcription)
 
-def get_results():
+def get_results(ground_truth_passage, transcription, confidence):
     
     transformation = jiwer.Compose([
                                 jiwer.ToLowerCase(),
