@@ -54,47 +54,38 @@ passage_list = []
 passage_list.append('''Opera refers to a dramatic art form, originating in Europe, in which the emotional content is conveyed to the audience 
 as much through music, both vocal and instrumental, as it is through the lyrics.''')
 
-passage_list.append('''Dolphins are regarded as the friendliest creatures in the sea and stories of them helping drowning sailors have been common 
-since Roman times. The more we learn about dolphins, the more we realize that their society is more complex than people previously imagined.''')
+passage_list.append('''John went for a bike ride. He rode
+around the block. Then he met
+some girls he knew from school.
+They all rode to the field to play.
+John had a great time playing
+games with his friends.''')
 
-passage_list.append("""Erosion of America's farmland by wind and water has been a problem since settlers first put the prairies and grasslands under the 
-plow in the nineteenth century. By the 1930s, more than 282 million acres of farmland were damaged by erosion.""")
+passage_list.append("""Tim went to the park with his brother. They
+brought baseballs and gloves. They
+played catch for two hours. It started
+to get very hot out, so they went
+home for some lemonade. They
+had a great day.""")
 
-passage_list.append("""Naval architects never claim that a ship is unsinkable, but the sinking of the passenger-and-car ferry Estonia in the Baltic surely 
-should have never have happened. It was well designed and carefully maintained.""")
+passage_list.append("""The ocean has bright blue water
+filled with waves. Many
+types of fish live in the
+ocean. Seagulls love flying
+over the ocean to look for fish. There is soft sand
+along the shore, and there are pretty seashells
+in the sand. The ocean is a great place to visit.""")
 
-passage_list.append("""Mouse and Lion are friends. They live in the African grasslands. Lion
-likes to sleep under a shade tree for most of the day. It is very hot in the
-grasslands. Every day, Mouse runs far and wide through the grasslands.
-He likes to know everything that is going on. In the evening, Mouse comes
-back and tells Lion all the news. After the sun goes down and the air gets
-cooler, Lion sometimes decides to go for a run. He lowers his huge head
-and invites Mouse to hop up. Mouse hops up, and then hangs on for dear
-life""")
+passage_list.append("""The kids were outside playing catch. They heard a
+rumble in the sky. They didn’t want to stop
+playing, but they knew it wasn’t safe to be out in
+a storm. Also, they did not want to get wet.
+They decided to go inside and play a board game.
+They loved listening to the thunder as they played their game.
+The kids went outside again after the storm had
+passed. They saw a rainbow!""")
 
-passage_list.append("""The littlest dragon on the mountain was called Sparkle, because his
-hide was pure white, and sparkly. Some of the dragons were blue, some
-were green, and some were red. But Sparkle was the only all-white dragon
-in their group""")
 
-passage_list.append("""There is a new water park in town. We
-go there on the first day of summer.
-It has pools and water slides.
-There are sprinklers too. The
-slides are scary at first. After the
-first ride, we love the water slides.
-The sprinklers are cool on hot days. One of the pools
-makes its own waves. All the kids try to surf the
-waves. It is really fun.""")
-
-passage_list.append("""The sky can be full of water. But most of the time you can't
-see the water. The drops of water are too small to see. They
-have turned into a gas called water
-vapor. As the water vapor goes higher
-in the sky, the air gets cooler. The
-cooler air causes the water droplets
-to start to stick to things like bits of
-dust, ice or sea salt.""")
 
 def get_passage():
 
