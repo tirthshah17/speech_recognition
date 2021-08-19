@@ -16,6 +16,7 @@ def load_model():
     model = Wav2Vec2ForCTC.from_pretrained("Harveenchadha/vakyansh-wav2vec2-indian-english-enm-700")
     return processor, model
 
+processor, model = load_model()
 
 def parse_transcription(wav_file):
     # load audio    
