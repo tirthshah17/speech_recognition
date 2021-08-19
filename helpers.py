@@ -97,7 +97,8 @@ to start to stick to things like bits of
 dust, ice or sea salt.""")
 
 def get_passage():
-
+    
+    global ground_truth_passage
     ground_truth_passage = random.choice(passage_list)
     print('READ PASSAGE : \n')
     print(ground_truth_passage)
